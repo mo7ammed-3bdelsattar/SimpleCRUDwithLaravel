@@ -3,7 +3,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
         <div class="navbar-brand">
-            <a class="fw-bold text-white m-0 text-decoration-none h3" href="">MSA</a>
+            <a class="fw-bold text-white m-0 text-decoration-none h3" href="{{route('home.index')}}">MSA</a>
         </div>
 
         <button class="navbar-toggler btn-outline-light border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,6 +17,7 @@
                         <a type="button" class="btn text-light navigation--button" href="{{route('contact.index')}}">Contact</a>
                         <a type="button" class="btn text-light navigation--button" href="{{route('about.index')}}">About</a>
                         <a type="button" class="btn text-light navigation--button" href="{{route('products.index')}}">Products</a>
+                        <a type="button" class="btn text-light navigation--button" href="{{route('categories.index')}}">Categories</a>
                     </div>
                 </div>
         </div>
